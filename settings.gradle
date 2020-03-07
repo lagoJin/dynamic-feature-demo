@@ -1,3 +1,0 @@
-rootProject.name='dynamic_feature_demo'
-include ':app'
-include ':buildSrc'
