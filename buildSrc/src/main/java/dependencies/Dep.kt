@@ -30,6 +30,13 @@ object Dep {
         val assistedInjectProcessor = "com.squareup.inject:assisted-inject-processor-dagger2:0.5.2"
     }
 
+    object Retrofit {
+        val version = "2.8.1"
+        val retrofit = "com.squareup.retrofit2:retrofit:$version"
+        val gsonConverter = "com.squareup.retrofit2:converter-gson:$version"
+
+    }
+
     object OkHttp {
         val version = "4.0.1"
         val client = "com.squareup.okhttp3:okhttp:$version"

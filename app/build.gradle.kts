@@ -36,8 +36,6 @@ dependencies {
     implementation(Dep.Dagger.android)
     kapt(Dep.Dagger.compiler)
     kapt(Dep.Dagger.androidProcessor)
-    compileOnly(Dep.Dagger.assistedInjectAnnotations)
-    kapt(Dep.Dagger.assistedInjectProcessor)
 
     testImplementation(Dep.Test.junit)
     androidTestImplementation(Dep.Test.testRunner)
