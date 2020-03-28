@@ -7,12 +7,17 @@ apply plugin: 'kotlin-kapt'
 
 apply from: rootProject.file('gradle/android.gradle')
 
+
 dependencies {
     kapt Dep.Dagger.compiler
     kapt Dep.Dagger.androidProcessor
-    implementation Dep.Kotlin.stdlibJvm
+
+    implementation Dep.Retrofit.retrofit
+    implementation Dep.Retrofit.gsonConverter
+    implementation Dep.OkHttp.loggingInterceptor
     implementation Dep.OkHttp.client
+
+    implementation Dep.Kotlin.stdlibJvm
     implementation Dep.Dagger.core
     implementation Dep.Dagger.androidSupport
-    implementation Dep.OkHttp.loggingInterceptor
 }

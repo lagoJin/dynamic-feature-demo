@@ -3,6 +3,7 @@
     package="com.lago.dynamic">
 
     <application
+        android:name=".LagoApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"

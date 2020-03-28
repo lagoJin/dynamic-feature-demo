@@ -1,6 +1,7 @@
 include(
     ":app",
     ":feature:github",
+    ":feature:main",
     ":data:api"
 )
 

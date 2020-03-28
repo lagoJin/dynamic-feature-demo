@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">dynamic_feature_demo</string>
+
+    <string name="API_BASE_URL"></string>
+</resources>
